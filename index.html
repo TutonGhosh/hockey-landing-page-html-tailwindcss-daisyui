@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
 
+    <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/61951a945a.js" crossorigin="anonymous"></script>
+
     <!-- DaisyUI & TailwindCSS CDN  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -21,7 +24,53 @@
     </style>
 </head>
 <body class="font-open-sans">
-    <header>
+    <header class="max-w-[1200px] mx-auto">
+
+        <!-- Navbar Start -->
+        <section class="mt-5">
+            <div class="mx-2 md:mx-5">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="Images/Hockey’s.png" alt="">
+                        </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-base font-medium text-gray-600">
+                            <li><a class="text-red-500">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end flex gap-5">
+                        <div class="hidden lg:flex">
+                            <i class="fa-solid fa-magnifying-glass text-gray-500 text-2xl opacity-50"></i>
+                        </div>
+                        <a class="btn text-xl text-white bg-red-500 px-5 py-6">Get Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar Start -->
+
 
     </header>
 
