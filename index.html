@@ -27,7 +27,7 @@
     <header class="max-w-[1200px] mx-auto">
 
         <!-- Navbar Start -->
-        <section class="mt-5">
+        <section class="md:mt-5">
             <div class="mx-2 md:mx-5">
                 <div class="navbar">
                     <div class="navbar-start">
@@ -39,7 +39,7 @@
                                         d="M4 6h16M4 12h8m-8 6h16" />
                                 </svg>
                             </div>
-                            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-48 p-2 shadow">
                                 <li><a>Home</a></li>
                                 <li><a>About</a></li>
                                 <li><a>Pages</a></li>
@@ -64,12 +64,67 @@
                         <div class="hidden lg:flex">
                             <i class="fa-solid fa-magnifying-glass text-gray-500 text-2xl opacity-50"></i>
                         </div>
-                        <a class="btn text-xl text-white bg-red-500 px-5 py-6">Get Ticket</a>
+                        <a class="btn btn-neutral border-0 shadow-none text-xl text-white bg-red-500 px-5 py-6 rounded-lg">Get Ticket</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Navbar Start -->
+
+        <!-- Banner Start -->
+        <section class="mt-14">
+            <div class="mx-2 md:mx-5">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="hero h-[350px] md:h-[450px] lg:h-[550px] bg-cover bg-center bg-no-repeat rounded-lg"
+                            style="background-image: url(Images/1.png);">
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex justify-center sm:justify-start translate-x-1 translate-y-28 sm:translate-y-20 md:translate-y-30 lg:translate-y-40 transform gap-5 sm:ml-5">
+                            <a href="#slide4" class="btn btn-circle bg-black text-white border-0 shadow-none">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white border-0 shadow-none">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="hero h-[350px] md:h-[450px] lg:h-[550px] bg-cover bg-center bg-no-repeat rounded-lg"
+                            style="background-image: url(Images/1.png);">
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex justify-center sm:justify-start translate-x-1 translate-y-28 sm:translate-y-20 md:translate-y-30 lg:translate-y-40 transform gap-5 sm:ml-5">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white border-0 shadow-none">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white border-0 shadow-none">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="hero h-[350px] md:h-[450px] lg:h-[550px] bg-cover bg-center bg-no-repeat rounded-lg"
+                            style="background-image: url(Images/1.png);">
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex justify-center sm:justify-start translate-x-1 translate-y-28 sm:translate-y-20 md:translate-y-30 lg:translate-y-40 transform gap-5 sm:ml-5">
+                            <a href="#slide2" class="btn btn-circle bg-black text-white border-0 shadow-none">❮</a>
+                            <a href="#slide4" class="btn btn-circle bg-black text-white border-0 shadow-none">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div class="hero h-[350px] md:h-[450px] lg:h-[550px] bg-cover bg-center bg-no-repeat rounded-lg"
+                            style="background-image: url(Images/1.png);">
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex justify-center sm:justify-start translate-x-1 translate-y-28 sm:translate-y-20 md:translate-y-30 lg:translate-y-40 transform gap-5 sm:ml-5">
+                            <a href="#slide3" class="btn btn-circle bg-black text-white border-0 shadow-none">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white border-0 shadow-none">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-end">
+                    <div class="mt-2 w-4/5 mx-auto sm:mt-0 sm:h-[160px] sm:w-1/2 sm:mx-0 bg-black sm:-translate-x-6 sm:-translate-y-48 rounded-xl text-white py-5 px-5 space-y-2 flex items-center justify-center">
+                        <div class="space-y-3">
+                            <h1 class="text-2xl font-medium">Meet all the heroes from the field</h1>
+                            <p class="text-sm font-medium opacity-70">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                                placerat dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
 
 
     </header>
